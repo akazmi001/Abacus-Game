@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abacus Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bead {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 2px 0;
+}
+
+  </style>
+</head>
+<body class="bg-white flex flex-col items-center justify-center min-h-screen p-6">
+  <h1 class="text-lg font-semibold text-gray-600 mb-2">Match the Number on the Abacus</h1>
+  <div id="target-number" class="text-4xl font-bold text-blue-600 mb-6"></div>
+  
+
+  <!-- Light Blue Box -->
+<div class="bg-blue-100 rounded-xl p-6 w-full max-w-3xl mx-auto mb-6">
+  <div class="relative w-full">
+
+    <!-- Horizontal Rod -->
+    <!-- Changed this line to use grid instead of flex -->
+    <div class="absolute bottom-[40px] left-0 right-0 h-6 bg-orange-800 z-0 rounded grid grid-cols-5 items-center text-center">
+        <!-- Labels on Horizontal Rod -->
+        
+    </div>
+  
+
+    <!-- Abacus Container -->
+    <div id="abacus" class="flex justify-between items-end h-60 z-10 relative">
+      <!-- Rods injected by JS -->
+    </div>
+  </div>
+ </div> 
+
+  <div id="current-value" class="text-3xl font-bold text-gray-800 mt-6 mb-2"></div>
+  <div id="status" class="text-green-600 font-semibold mb-4">You matched the number!</div>
+
+  <button onclick="generateNewTarget()" class="bg-green-500 text-white font-semibold px-6 py-2 rounded shadow hover:bg-green-600 mt-6">
+    New Question
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
