@@ -17,7 +17,3 @@ A fun browser-based game to match numbers on an interactive abacus using HTML, T
 - HTML
 - Tailwind CSS
 - JavaScript
-
-## 📄 License
-
-MIT
