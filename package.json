@@ -1,0 +1,20 @@
+{
+  "name": "abacus_game",
+  "version": "1.0.0",
+  "description": "A fun browser-based game to match numbers on an interactive abacus using HTML, Tailwind CSS, and JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akazmi001/Abacus-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akazmi001/Abacus-Game/issues"
+  },
+  "homepage": "https://github.com/akazmi001/Abacus-Game#readme"
+}
